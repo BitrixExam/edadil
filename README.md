@@ -167,6 +167,11 @@ cp .env.example .env
 - Добавить месячную статистику изменения цены.
 - Сделать web-интерфейс для поиска, сравнения и просмотра истории цен.
 
+## Лицензия
+
+Проект распространяется по лицензии MIT.
+Подробности: [LICENSE](LICENSE)
+
 ## Полезные файлы
 
 - [app/Console/Commands/ParseCatalog.php](app/Console/Commands/ParseCatalog.php)
