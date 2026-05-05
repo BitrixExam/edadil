@@ -4,7 +4,7 @@ namespace App\Parsing\Parsers;
 
 use App\Parsing\Contracts\ProductParser;
 use App\Parsing\Data\ParsedProduct;
-use App\Parsing\Exceptions\ProductParseException;
+use App\Parsing\Exceptions\ProductParseException; // не используемый use, так как класс пустой
 use DiDom\Document;
 use DiDom\Element;
 
