@@ -35,4 +35,15 @@ return [
         ],
     ],
 
+    'selenium' => [
+        'url' => env('SELENIUM_URL', 'http://selenium:4444/wd/hub'),
+        'headless' => env('SELENIUM_HEADLESS', true),
+        'user_agent' => env('SELENIUM_USER_AGENT', ''),
+        'browser_arguments' => env('SELENIUM_BROWSER_ARGUMENTS', ''),
+        'no_sandbox' => env('SELENIUM_NO_SANDBOX', true),
+        'wait_after_navigation_ms' => env('SELENIUM_WAIT_AFTER_NAVIGATION_MS', 6000),
+        'capture_poll_interval_ms' => env('SELENIUM_CAPTURE_POLL_INTERVAL_MS', 500),
+        'pyaterochka_debug' => env('PYATEROCHKA_DEBUG', false),
+    ],
+
 ];

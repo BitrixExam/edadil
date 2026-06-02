@@ -10,6 +10,11 @@ use DiDom\Element;
 
 class MagnitCatalogParser implements CatalogParser
 {
+    public function catalogRequestUrl(string $url): string
+    {
+        return $url;
+    }
+
     public function supports(string $url): bool
     {
         $host = (string) parse_url($url, PHP_URL_HOST);

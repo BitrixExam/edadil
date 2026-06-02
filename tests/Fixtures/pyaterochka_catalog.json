@@ -1,0 +1,50 @@
+{
+    "parent_id": "251C12889",
+    "name": "Мясо",
+    "filters": [
+        {
+            "name": "Цена, ₽",
+            "field_name": "price",
+            "filter_type": "range",
+            "range_min_val": "159.99",
+            "range_max_val": "1499.00"
+        }
+    ],
+    "products": [
+        {
+            "plu": 3478153,
+            "name": "Стейк говяжий Мираторг Black Angus Рибай без кости охлажденный 320г",
+            "uom": "шт",
+            "step": "1.0",
+            "promo": null,
+            "prices": {
+                "regular": "1499.0",
+                "discount": null,
+                "cpd_promo_price": null,
+                "cpd_promo_price_from_sum_cart": null
+            },
+            "property_clarification": "320 г",
+            "has_age_restriction": false,
+            "stock_limit": "5.00",
+            "is_available": true
+        },
+        {
+            "plu": 3667502,
+            "name": "Стейк говяжий Мираторг Black Angus Вегас охлажденный 480г",
+            "uom": "шт",
+            "step": "1.0",
+            "promo": null,
+            "prices": {
+                "regular": "915.99",
+                "discount": null,
+                "cpd_promo_price": null,
+                "cpd_promo_price_from_sum_cart": null
+            },
+            "property_clarification": "480 г",
+            "has_age_restriction": false,
+            "stock_limit": "3.00",
+            "is_available": true
+        }
+    ],
+    "request_id": null
+}
